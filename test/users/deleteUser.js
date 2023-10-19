@@ -1,7 +1,7 @@
 const { default: axios } = require("axios");
 const { describe } = require("mocha");
 const baseUrl = require('../../config');
-const userData = require('../util');
+const userData = require('../userData')
 const { expect } = require("chai");
 
 let token;
