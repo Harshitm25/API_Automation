@@ -21,7 +21,7 @@ describe("delete user data", () => {
                 }
             }
             const response = await axios.delete(`${baseUrl}/users/me`, payload);
-            expect(response.status).to.be.equal(200); // Assuming your API returns a 204 status for a successful delete.
+            expect(response.status).to.be.equal(200); 
         } catch (error) {
             console.log(error);
         }
