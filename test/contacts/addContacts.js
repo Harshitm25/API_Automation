@@ -35,21 +35,4 @@ describe("add contacts data", () => {
 
     }).timeout(20000);
 
-
-    // it('checking the first name should be equal after creating addContact', async () => {
-    //     try {
-    //         const payload = {
-    //             headers: {
-    //                 Authorization: `Bearer ${token}`
-    //             }
-    //         }
-    //         const response = await axios.get(`${baseUrl}/contacts/`, payload)
-    //         console.log(response.data.firstName);
-    //         console.log(contactsdata.createContactData().firstName);
-    //         expect(response.data.firstName).to.be.equal(contactsdata.createContactData().firstName)
-
-    //     } catch (error) {
-    //         console.log(error);
-    //     }
-    // }).timeout(20000)
 });
